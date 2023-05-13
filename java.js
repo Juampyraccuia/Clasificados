@@ -32,5 +32,17 @@ function topFunction() {
   document.body.scrollTop = 0; // para Safari
   document.documentElement.scrollTop = 0; // para Chrome, Firefox, IE y Opera
 }
+const button = document.getElementById('myBtn');
+
+window.addEventListener('scroll', function() {
+  if (window.scrollY > 500) {
+    button.style.opacity = '1';
+    button.style.visibility = 'visible';
+  } else {
+    button.style.opacity = '0';
+    button.style.visibility = 'hidden';
+  }
+});
+
 
   

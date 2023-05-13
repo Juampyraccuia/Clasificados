@@ -136,22 +136,27 @@ p {
   opacity: 1;
   transform: translateY(0);
 }
+.bi.bi-airplane-engines:hover{
+
+  color:#25D366;
+transition: background-color 0.7s ease;
+}
 #myBtn {
   display: none; /* oculta el botón */
   position: fixed; /* mantiene el botón en la misma posición en la página */
-  bottom: 20px; /* distancia desde el borde inferior de la ventana del navegador */
+  bottom: 30px; /* distancia desde el borde inferior de la ventana del navegador */
   right: 30px; /* distancia desde el borde derecho de la ventana del navegador */
   z-index: 99; /* asegura que el botón esté por encima de otros elementos */
-  font-size: 18px; /* tamaño de fuente del botón */
+  font-size: 50px; /* tamaño de fuente del botón */
   border: none; /* borde del botón */
   outline: none; /* borde de enfoque del botón */
-  background-color: #555; /* color de fondo del botón */
+  background-color: #333; /* color de fondo del botón */
   color: white; /* color de fuente del botón */
   cursor: pointer; /* cambia el cursor al pasar el mouse sobre el botón */
-  padding: 15px; /* espacio dentro del botón */
-  border-radius: 10px; /* radio de borde del botón */
+  padding: 5px; /* espacio dentro del botón */
+  border-radius: 50px; /* radio de borde del botón */
 }
 
 #myBtn:hover {
-  background-color: #333; /* color de fondo del botón cuando se pasa el mouse sobre él */
+  background-color: #25D366; /* color de fondo del botón cuando se pasa el mouse sobre él */
 }
