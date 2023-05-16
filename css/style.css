@@ -1,0 +1,178 @@
+@charset "UTF-8";
+.anuncio {
+  height: 300px;
+  background-color: aqua; }
+
+h2 {
+  font-family: 'monofontorg.otf', sans-serif;
+  text-decoration: underline;
+  text-align: center; }
+
+#menu {
+  background-color: #4C5B5C;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.25); }
+
+#marca {
+  margin-right: 20px;
+  width: auto;
+  font-size: 20px; }
+
+#img1 {
+  width: 60px;
+  height: 40px; }
+
+.anuncio {
+  height: 300px;
+  background-color: aqua; }
+
+#fondomenu {
+  background-color: #4C5B5C;
+  /* color de fondo inicial del botón */
+  color: white; }
+
+#prov {
+  color: white;
+  transition: background-color 0.5s ease; }
+
+#boton {
+  background-color: #4C5B5C;
+  /* color de fondo inicial del botón */
+  color: white;
+  /* color de texto inicial del botón */
+  padding: 10px 20px;
+  /* tamaño del botón */
+  border: none;
+  /* borde del botón */ }
+
+#boton:hover {
+  background-color: #79a687;
+  /* color de fondo al pasar el mouse sobre el botón */
+  transition: background-color 0.5s ease;
+  /* definir la transición */ }
+
+.buttons {
+  min-width: 700px;
+  display: flex;
+  justify-content: space-around; }
+
+.buttons i {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #314652;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: all .4s ease-in-out; }
+
+.buttons i:hover {
+  transform: scale(1.2); }
+
+.btn.btn-primary {
+  background-color: #333;
+  border: 2px solid #333; }
+
+.card-text {
+  color: #333; }
+
+.btn.btn-primary:hover {
+  background-color: #79a687;
+  /* color de fondo al pasar el mouse sobre el botón */
+  transition: background-color 0.5s ease;
+  /* definir la transición */
+  border: 2px solid #79a687; }
+
+/* Estilo para la sección a la que deseas ir */
+#botonm {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.5s ease-in-out; }
+
+/* Estilo para la animación cuando se muestra la sección */
+#botonm.mostrar {
+  opacity: 1;
+  transform: translateY(0); }
+
+.bi.bi-airplane-engines:hover {
+  color: #25D366;
+  transition: background-color 0.7s ease; }
+
+#myBtn {
+  display: none;
+  /* oculta el botón */
+  position: fixed;
+  /* mantiene el botón en la misma posición en la página */
+  bottom: 30px;
+  /* distancia desde el borde inferior de la ventana del navegador */
+  right: 30px;
+  /* distancia desde el borde derecho de la ventana del navegador */
+  z-index: 99;
+  /* asegura que el botón esté por encima de otros elementos */
+  font-size: 50px;
+  /* tamaño de fuente del botón */
+  border: none;
+  /* borde del botón */
+  outline: none;
+  /* borde de enfoque del botón */
+  background-color: #333;
+  /* color de fondo del botón */
+  color: white;
+  /* color de fuente del botón */
+  cursor: pointer;
+  /* cambia el cursor al pasar el mouse sobre el botón */
+  padding: 5px;
+  /* espacio dentro del botón */
+  border-radius: 50px;
+  /* radio de borde del botón */ }
+
+#myBtn:hover {
+  background-color: #25D366;
+  /* color de fondo del botón cuando se pasa el mouse sobre él */ }
+
+.footer {
+  background-color: #333;
+  height: 100px; }
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 5px;
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.7s ease; }
+
+#face {
+  font-size: 30px; }
+
+#wts {
+  font-size: 30px; }
+
+.bi.bi-whatsapp:hover {
+  color: #25D366;
+  transition: background-color 0.7s ease; }
+
+.bi.bi-facebook:hover {
+  color: #3B5998;
+  transition: background-color 0.7s ease; }
+
+.social-icon:hover {
+  background-color: white;
+  /* para el botón de facebook */ }
+
+p {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+  color: white; }
