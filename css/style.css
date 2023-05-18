@@ -22,6 +22,18 @@ h2 {
   width: 60px;
   height: 40px; }
 
+  .factualizacion {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .actualizacionbtn:hover + .factualizacion {
+    display: block;
+  }
+  
 .anuncio {
   height: 300px;
   background-color: aqua; }
