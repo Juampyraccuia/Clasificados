@@ -112,7 +112,7 @@ h2 {
   /* distancia desde el borde derecho de la ventana del navegador */
   z-index: 99;
   /* asegura que el botón esté por encima de otros elementos */
-  font-size: 50px;
+  font-size: 30px;
   /* tamaño de fuente del botón */
   border: none;
   /* borde del botón */
