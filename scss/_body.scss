@@ -1,3 +1,6 @@
+.contenido {
+  background-color: rgb(255, 251, 245);
+}
 #marca {
     margin-right: 20px;
     width: auto;
@@ -10,7 +13,7 @@
   }
   
   #fondomenu {
-    background-color: #4c5b5c;
+    background: linear-gradient(45deg, #111, #333);
     color: white;
   }
   
@@ -20,7 +23,7 @@
   }
   
   #boton {
-    background-color: #4c5b5c; 
+    background: linear-gradient(45deg, #111, #333);
     color: white; 
     padding: 10px 20px; 
     border: none; 
