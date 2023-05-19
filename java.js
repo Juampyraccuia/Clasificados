@@ -34,13 +34,3 @@ $('button.arriba').click(function() {
     }, 1000);
   });
 
-  $('actualizacionbtn.arriba').click(function() {
-    $('html, body').animate({
-      scrollTop: $('header#menu').offset().top
-    }, 1000);
-  });
-
-  function mostrarContenido() {
-    $('#factualizacion').toggle();
-  }
-  
